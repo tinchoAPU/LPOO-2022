@@ -1,0 +1,11 @@
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\bin\Debug\Vistas.exe
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\bin\Debug\Vistas.pdb
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmMain.resources

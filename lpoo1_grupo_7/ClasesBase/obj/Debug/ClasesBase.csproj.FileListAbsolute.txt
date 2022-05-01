@@ -1,0 +1,4 @@
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\ClasesBase\obj\Debug\ClasesBase.pdb
