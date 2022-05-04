@@ -15,5 +15,17 @@ namespace Vistas
         {
             InitializeComponent();
         }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nuevoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmNuevoCliente frm = new FrmNuevoCliente();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

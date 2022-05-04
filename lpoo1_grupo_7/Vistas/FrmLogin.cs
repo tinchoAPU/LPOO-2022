@@ -47,6 +47,7 @@ namespace Vistas
             Usuario usuario2 = new Usuario("usuario2", "4567",rolOperador.Rol_Codigo);
             Usuario usuario3 = new Usuario("usuario3", "8910", rolAuditor.Rol_Codigo);
             FrmMain frmMain = new FrmMain();
+            FrmPrincipal frmPrincipal = new FrmPrincipal();
             if (usuario1.Usu_NombreUsuario == txtUsuario.Text && usuario1.Usu_Contrasena == txtContrasena.Text)
             {
                 userFound = true;
@@ -62,7 +63,9 @@ namespace Vistas
             if (userFound)
             {
                 MessageBox.Show("Bienvenido! " + txtUsuario.Text);
-                frmMain.Show();
+                this.Hide();
+                frmPrincipal.FormClosed += (s, args) => this.Close();
+                frmPrincipal.Show();
             }
             else {
                 MessageBox.Show("Datos incorrectos");
