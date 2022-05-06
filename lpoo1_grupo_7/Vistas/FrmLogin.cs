@@ -71,5 +71,37 @@ namespace Vistas
                 MessageBox.Show("Datos incorrectos");
             }
         }
+
+        private void resaltar(object sender, EventArgs e)
+        {
+            txtUsuario.ForeColor = Color.Green;
+            txtUsuario.BackColor = Color.LightGreen;
+        }
+
+        private void quitarResalto(object sender, EventArgs e)
+        {
+            txtUsuario.BackColor = Color.White;
+        }
+
+        private void resaltarPwd(object sender, EventArgs e)
+        {
+            txtContrasena.ForeColor = Color.Green;
+            txtContrasena.BackColor = Color.LightGreen;
+        }
+
+        private void quitarResaltoPwd(object sender, EventArgs e)
+        {
+            txtContrasena.BackColor = Color.White;
+        }
+
+        private void resaltarBoton(object sender, EventArgs e)
+        {
+            btnLogin.BackColor = Color.LightGreen;
+        }
+
+        private void quitarResaltoBoton(object sender, EventArgs e)
+        {
+            btnLogin.BackColor = Color.Transparent;
+        }
     }
 }

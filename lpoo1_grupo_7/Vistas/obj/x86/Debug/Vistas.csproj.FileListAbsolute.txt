@@ -27,3 +27,19 @@ C:\Users\Diego\Documents\LPOO22\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vis
 C:\Users\Diego\Documents\LPOO22\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.pdb
 C:\Users\Diego\Documents\LPOO22\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmPrincipal.resources
 C:\Users\Diego\Documents\LPOO22\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.Form1.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\bin\Debug\Vistas.exe
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\bin\Debug\Vistas.pdb
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.Form1.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmNuevaObraSocial.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmNuevoCliente.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmMain.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmNuevoProducto.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmPrincipal.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
