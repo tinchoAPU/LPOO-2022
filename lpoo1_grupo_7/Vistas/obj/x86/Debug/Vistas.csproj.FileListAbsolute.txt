@@ -43,3 +43,8 @@ C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debu
 C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmPrincipal.resources
 C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 C:\Users\KARINA\Documents\proyecto source tree\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.Form1.resources
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmNuevaObraSocial.resources
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmNuevoCliente.resources
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmNuevoProducto.resources
+C:\Users\OPENIX-2021\Documents\LPOO-2022\lpoo1_grupo_7\Vistas\obj\x86\Debug\Vistas.FrmPrincipal.resources

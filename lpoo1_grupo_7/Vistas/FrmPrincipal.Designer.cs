@@ -30,16 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.toolStrip = new System.Windows.Forms.ToolStrip();
-            this.statusStrip = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearUnClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.obrasSocialesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevaObraSocialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStrip = new System.Windows.Forms.ToolStrip();
+            this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +55,52 @@
             this.menuStrip.Size = new System.Drawing.Size(632, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.crearUnClienteToolStripMenuItem});
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.clientesToolStripMenuItem.Text = "Clientes";
+            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            // 
+            // crearUnClienteToolStripMenuItem
+            // 
+            this.crearUnClienteToolStripMenuItem.Name = "crearUnClienteToolStripMenuItem";
+            this.crearUnClienteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.crearUnClienteToolStripMenuItem.Text = "ABM Clientes";
+            this.crearUnClienteToolStripMenuItem.Click += new System.EventHandler(this.crearUnClienteToolStripMenuItem_Click);
+            // 
+            // productosToolStripMenuItem
+            // 
+            this.productosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevoProductoToolStripMenuItem});
+            this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.productosToolStripMenuItem.Text = "Productos";
+            // 
+            // nuevoProductoToolStripMenuItem
+            // 
+            this.nuevoProductoToolStripMenuItem.Name = "nuevoProductoToolStripMenuItem";
+            this.nuevoProductoToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.nuevoProductoToolStripMenuItem.Text = "ABM Productos";
+            this.nuevoProductoToolStripMenuItem.Click += new System.EventHandler(this.nuevoProductoToolStripMenuItem_Click);
+            // 
+            // obrasSocialesToolStripMenuItem
+            // 
+            this.obrasSocialesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevaObraSocialToolStripMenuItem});
+            this.obrasSocialesToolStripMenuItem.Name = "obrasSocialesToolStripMenuItem";
+            this.obrasSocialesToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
+            this.obrasSocialesToolStripMenuItem.Text = "Obras Sociales";
+            // 
+            // nuevaObraSocialToolStripMenuItem
+            // 
+            this.nuevaObraSocialToolStripMenuItem.Name = "nuevaObraSocialToolStripMenuItem";
+            this.nuevaObraSocialToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.nuevaObraSocialToolStripMenuItem.Text = "ABM Obras Sociales";
+            this.nuevaObraSocialToolStripMenuItem.Click += new System.EventHandler(this.nuevaObraSocialToolStripMenuItem_Click);
             // 
             // toolStrip
             // 
@@ -79,52 +125,6 @@
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
-            // 
-            // clientesToolStripMenuItem
-            // 
-            this.clientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.crearUnClienteToolStripMenuItem});
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.clientesToolStripMenuItem.Text = "Clientes";
-            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
-            // 
-            // crearUnClienteToolStripMenuItem
-            // 
-            this.crearUnClienteToolStripMenuItem.Name = "crearUnClienteToolStripMenuItem";
-            this.crearUnClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.crearUnClienteToolStripMenuItem.Text = "Nuevo Cliente";
-            this.crearUnClienteToolStripMenuItem.Click += new System.EventHandler(this.crearUnClienteToolStripMenuItem_Click);
-            // 
-            // productosToolStripMenuItem
-            // 
-            this.productosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevoProductoToolStripMenuItem});
-            this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            this.productosToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.productosToolStripMenuItem.Text = "Productos";
-            // 
-            // nuevoProductoToolStripMenuItem
-            // 
-            this.nuevoProductoToolStripMenuItem.Name = "nuevoProductoToolStripMenuItem";
-            this.nuevoProductoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.nuevoProductoToolStripMenuItem.Text = "Nuevo Producto";
-            this.nuevoProductoToolStripMenuItem.Click += new System.EventHandler(this.nuevoProductoToolStripMenuItem_Click);
-            // 
-            // obrasSocialesToolStripMenuItem
-            // 
-            this.obrasSocialesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevaObraSocialToolStripMenuItem});
-            this.obrasSocialesToolStripMenuItem.Name = "obrasSocialesToolStripMenuItem";
-            this.obrasSocialesToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
-            this.obrasSocialesToolStripMenuItem.Text = "Obras Sociales";
-            // 
-            // nuevaObraSocialToolStripMenuItem
-            // 
-            this.nuevaObraSocialToolStripMenuItem.Name = "nuevaObraSocialToolStripMenuItem";
-            this.nuevaObraSocialToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.nuevaObraSocialToolStripMenuItem.Text = "Nueva Obra Social";
-            this.nuevaObraSocialToolStripMenuItem.Click += new System.EventHandler(this.nuevaObraSocialToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 

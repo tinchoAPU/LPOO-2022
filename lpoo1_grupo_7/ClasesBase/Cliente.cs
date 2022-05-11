@@ -52,7 +52,7 @@ namespace ClasesBase
 
         public Cliente()
         {
-            throw new System.NotImplementedException();
+            
         }
     }
 }
