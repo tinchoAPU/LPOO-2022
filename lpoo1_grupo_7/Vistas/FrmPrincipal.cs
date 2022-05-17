@@ -118,5 +118,12 @@ namespace Vistas
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void aBMUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormNuevoUsuario frm = new FormNuevoUsuario();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

@@ -43,9 +43,9 @@ namespace Vistas
             Rol rolAdmin = new Rol(001,"Descripcion Admin");
             Rol rolOperador = new Rol(002, "Descripcion Operador");
             Rol rolAuditor = new Rol(003,"Descripcion Auditor");
-            Usuario usuario1 = new Usuario("usuario1","1234",rolAdmin.Rol_Codigo);
-            Usuario usuario2 = new Usuario("usuario2", "4567",rolOperador.Rol_Codigo);
-            Usuario usuario3 = new Usuario("usuario3", "8910", rolAuditor.Rol_Codigo);
+            FormNuevoUsuario usuario1 = new FormNuevoUsuario("usuario1","1234",rolAdmin.Rol_Codigo);
+            FormNuevoUsuario usuario2 = new FormNuevoUsuario("usuario2", "4567",rolOperador.Rol_Codigo);
+            FormNuevoUsuario usuario3 = new FormNuevoUsuario("usuario3", "8910", rolAuditor.Rol_Codigo);
             FrmMain frmMain = new FrmMain();
             FrmPrincipal frmPrincipal = new FrmPrincipal();
             if (usuario1.Usu_NombreUsuario == txtUsuario.Text && usuario1.Usu_Contrasena == txtContrasena.Text)

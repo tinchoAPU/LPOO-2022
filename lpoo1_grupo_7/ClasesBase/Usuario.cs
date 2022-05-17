@@ -7,6 +7,7 @@ namespace ClasesBase
 {
     public class Usuario
     {
+
         private int usu_ID;
 
         public int Usu_ID
@@ -48,6 +49,11 @@ namespace ClasesBase
             usu_NombreUsuario = nombreUsuario;
             usu_Contrasena = contra;
             rol_Codigo = rol;
+        }
+
+        public Usuario()
+        {
+            // TODO: Complete member initialization
         }
     }
 }
