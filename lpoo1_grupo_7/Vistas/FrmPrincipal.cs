@@ -125,5 +125,19 @@ namespace Vistas
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void ventaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmVentas frm = new frmVentas();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void reporteDeVentasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmReporteVentas frm = new FrmReporteVentas();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
